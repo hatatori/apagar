@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="bloco" class="flex flex-col">
+
+        <div class="flex flex-1 p-10 j-center i-center">
+                <button id="btmain">火</button>
+        </div>
+        
+        <div class="flex flex-1 p-10 j-center i-center">
+            <button class="btescolha" id="b1" onclick="resultadoBt(this)">água</button>
+            <button class="btescolha" id="b2" onclick="resultadoBt(this)">fogo</button>
+            <button class="btescolha" id="b3" onclick="resultadoBt(this)">terra</button>
+            <button class="btescolha" id="b4" onclick="resultadoBt(this)">ar</button>
+            <button class="btescolha" id="b5" onclick="resultadoBt(this)">ar</button>
+        </div>
+
+        <div class="flex flex-1 p-10 j-center i-center">
+            <button onclick="proximoNovo()" class="invisible" id="btproximo">Próximo</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

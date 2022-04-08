@@ -1,0 +1,51 @@
+*{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   */
+    padding: 0px;
+    margin: 0px;
+    font-family:  "メイリオ", Meiryo, Tahoma, Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    /* font-size: ; */
+}
+
+body{
+    background-color: #181a1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#bloco{
+    width: 800px;
+    max-width: 100%;
+    height: 600px;
+    max-height: 100vh;
+    /* border: solid 1px #3b3b3b; */
+    border-radius: 10px;
+    padding:10px;
+}
+
+.certo{background-color: #328d6a; color:white}
+.errado{background-color: #d23030; color:white}
+
+.invisible{visibility: hidden;}
+.visible{visibility: visible;}
+
+button{
+    border: none;
+    padding: 8px 20px;
+    /* font-size: 30px; */
+    border-radius: 5px;
+    margin: 5px;
+    outline: none;
+    background-color: #3b3b3b;
+    color: white;
+}
+
+.flex{display: flex;}
+.flex-col{flex-direction: column}
+.flex-1{flex: 1}
+.j-center{justify-content: center;}
+.i-center{align-items: center;}
+.b-orange{background-color: #e74c3c;}
+.h-full{height: 100%;}
+.p-10{padding: 10px;}
